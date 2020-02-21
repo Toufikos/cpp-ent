@@ -3,7 +3,7 @@
 // Author      : carl.seleborg.free.fr
 // Version     :
 // Copyright   : Your copyright notice
-// Description : Hello World in C++, Ansi-style
+// Description : Exo Pointeur 4 in C++, Ansi-style
 //============================================================================
 
 #include <iostream>
@@ -40,7 +40,8 @@ void Sort(int* table, int size)
 }
 
 int main() {
-	cout << "Pointeurs4" << endl; // prints Pointeurs2
+
+	cout << "Pointeurs 4" << endl; // prints Pointeurs2
 
 	int table[] = {4, 6, 3, 7, 9, 2, 1, 10, 5, 8};
 	int size = sizeof(table) / sizeof(int);
