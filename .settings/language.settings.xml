@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project>
     	
-    <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1304887635" name="Build (GNU)">
+    <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.1911325489" name="Build (GNU)">
         		
         <extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
             			
@@ -25,7 +25,7 @@
         	
     </configuration>
     	
-    <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.732496679" name="Debug (GNU)">
+    <configuration id="org.eclipse.linuxtools.cdt.autotools.core.configuration.build.debug.1538869343" name="Debug (GNU)">
         		
         <extension point="org.eclipse.cdt.core.LanguageSettingsProvider">
             			
