@@ -11,5 +11,14 @@ using namespace std;
 
 int main() {
 	cout << "Pointeurs3" << endl;
+
+	int a = 11;
+	void* p = &a;
+	cout << "AAA" << ((int*)p);
+
+
+
+
+
 	return 0;
 }
