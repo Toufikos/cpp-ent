@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : MySmartPointers.cpp
+// Name        : MySmartPointer.cpp
 // Author      : Toufik
 // Version     :
 // Copyright   : Your copyright notice
@@ -7,13 +7,16 @@
 //============================================================================
 
 #include <iostream>
+#include "MyResource.h"
 using namespace std;
 
 int main() {
-	cout << "MySmartPointes (RAII et l'utilisation des smart pointeurs YT : Dominique Liard)" << endl;
+	cout << "MySmartPointers" << endl; // prints MySmartPointers
 
+	MyResourcePtr r = new MyResource( "truc" );
+	r->doSomething();
 
-
+	delete r;
 
 	return 0;
 }
