@@ -1,4 +1,4 @@
-//============================================================================
+   //============================================================================
 // Name        : listeChainee.cpp
 // Author      : Toufik
 // Version     :
@@ -107,7 +107,7 @@ void Afficher()
 }
 
 int main() {
-	cout << "Liste Chainée" << endl; // prints Liste Chainée
+	cout << "Liste Chainée ***" << endl; // prints Liste Chainée
 
 	 Element* e;
 
@@ -119,7 +119,7 @@ int main() {
 	    Afficher();
 
 	    e = Rechercher(5);
-	    Supprimer(e);
+	   // Supprimer(e);
 
 	    Afficher();
 
