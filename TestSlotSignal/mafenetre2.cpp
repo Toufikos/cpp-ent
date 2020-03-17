@@ -18,15 +18,28 @@ MaFenetre2::MaFenetre2() : QWidget()
 
 }
 
-void MaFenetre2::changerLargeur(int largeur){
+/*void MaFenetre2::changerLargeur(int largeur){
 
     setFixedSize(largeur, 100);
 }
+*/
 
 void MaFenetre2::changerLongueur(int longueur){
 
     setFixedSize(100, longueur);
 }
+
+void MaFenetre2::changerLargeur(int largeur){
+
+    setFixedSize(largeur, height());
+
+    if(largeur == 600){
+
+        emit agrandissementMax();
+    }
+}
+
+
 
 
 

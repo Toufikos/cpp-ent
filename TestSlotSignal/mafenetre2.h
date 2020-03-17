@@ -18,7 +18,7 @@ public slots:
     void changerLongueur(int);
 
 signals:
-    void agrandissementMax();
+    void agrandissementMax(); // TOujours void() et pas dans le .cpp
 
 private:
     QSlider *sld, *sld2;
