@@ -11,9 +11,9 @@ using namespace std;
 
 
 string cal(int n, string str){
-
+	
 	string res = "";
-		   for (int i(0); i < str.size(); ++i)
+		for (int i(0); i < str.size(); ++i)
 		        {
 		            if (i%n == 0 && i != 0){
 		                res = res +'\n' +str.at(i);
@@ -29,7 +29,6 @@ string cal(int n, string str){
 int main() {
 
 	cout << cal(5, "AAAAAAAAAAAAAAAAAAA");
-
 
 	return 0;
 }
