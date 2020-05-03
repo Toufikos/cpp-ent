@@ -32,12 +32,10 @@ void Ajouter(int valeur){
 	// Puis on remet à jour le pointeur vers le
 	// premier élément de la liste, qui est notre
 	// nouvel élément.
-
 }
 
 Element* Rechercher(int valeur)
 {
-
     Element* element = liste;
     // La méthode de recherche est simple :
     // On se place en première position, et tant
@@ -62,17 +60,14 @@ Element* Rechercher(int valeur)
 
 void Supprimer(Element* element)
 {
-
     Element* precedent = liste;
     // Si l'élément à supprimer est le premier de
     // la liste, alors le travail est vite fait.
     if(element == liste)
     {
-
         liste = NULL;
         delete element;
         return;
-
     }
 
     // Sinon, il faut rechercher l'élément précédent,
@@ -89,8 +84,6 @@ void Supprimer(Element* element)
 
 }
 
-
-
 void Afficher()
 {
 
@@ -103,7 +96,6 @@ void Afficher()
 
     }
     cout << endl;
-
 }
 
 int main() {
@@ -118,11 +110,9 @@ int main() {
 
 	    Afficher();
 
-	    e = Rechercher(5);
-	   // Supprimer(e);
-
+	    e = Rechercher(5); // Supprimer(e);
+	
 	    Afficher();
 
 	    return 0;
-
 }
