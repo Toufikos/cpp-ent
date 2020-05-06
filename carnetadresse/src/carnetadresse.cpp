@@ -18,8 +18,5 @@ int main() {
 	cin.get(buffer, 30);
 	cin.sync();
 	cout << "Vous avez écrits : " << buffer << endl;
-
-
-
 	return 0;
 }
