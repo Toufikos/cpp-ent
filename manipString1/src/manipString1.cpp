@@ -15,6 +15,8 @@ int main() {
 	// Avec explicit basic_string
 
 	basic_string(10, "A");
+	basic_string(10, "B");
+	basic_string(10, "C");
 
 
 
