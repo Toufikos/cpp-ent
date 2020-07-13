@@ -16,7 +16,7 @@ int main() {
 	MyResourcePtr r = new MyResource( "truc" );
 	r->doSomething();
 
-	delete r;
+	//delete r;
 
 	return 0;
 }
