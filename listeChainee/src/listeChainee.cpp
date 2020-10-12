@@ -12,7 +12,7 @@ using namespace std;
 struct Element{
 
 	int valeur;
-	Element* suivant;
+	Element* suivant;Element* suivant;
 };
 
 Element* liste = NULL;
