@@ -13,6 +13,8 @@ int main() {
 	cout << "ManipString1" << endl; // prints ManipString1
 
 	// Avec explicit basic_string
+	
+	// https://www.cplusplus.com/reference/string/basic_string/
 
 	basic_string(10, "A");
 	basic_string(10, "B");
